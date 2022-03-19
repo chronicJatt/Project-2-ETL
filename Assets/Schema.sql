@@ -17,4 +17,3 @@ CREATE TABLE crude_oil (
 
 ALTER TABLE crude_oil ADD CONSTRAINT fk_crude_oil_report_month FOREIGN KEY(report_month)
 REFERENCES cpi_data (report_month);
-
